@@ -1,0 +1,88 @@
+#baseURL: https://cookiehookey.neocities.org/
+baseURL: https://cookiehookey.v6.rocks/
+languageCode: en-us
+#theme: photophobia
+
+DefaultContentLanguage: jp
+SectionPagesMenu: main
+Paginate: 20
+
+
+languages:
+  en:
+    title: CookieHookey
+    weight: 2
+    contentDir: content/en
+    menu:
+      nav:
+      - name : Tags
+        url : /en/tags
+        weight : 1
+      footnav:
+      - name : About
+        url : /en/about
+        weight : 1
+      - name : Contact
+        url : /en/contact
+        weight : 2
+      - name : Privacy
+        url : /privacy
+        weight : 4
+      - name : RSS
+        url : /en/index.xml
+        weight : 5
+
+  jp:
+    title: CookieHookey
+    weight: 1
+    contentDir: content/jp
+    menu:
+      nav:
+      - name : Tags
+        url : /tags
+        weight : 1
+      footnav:
+      - name : About
+        url : /about
+        weight : 1
+      - name : Contact
+        url : /contact
+        weight : 2
+      - name : Privacy
+        url : /privacy
+        weight : 4
+      - name : RSS
+        url : /index.xml
+        weight : 5
+
+sitemap:
+  changefreq: daily
+  priority: 0.5
+  filename: sitemap.xml
+
+params:
+  favicon: null
+  site_logo: null
+#  description: Pellentesque commodo dolor leo.
+  recent_posts_number: 10
+
+markup:
+  highlight:
+    style: native
+  tableOfContents:
+    endLevel: 3
+    ordered: true
+    startLevel: 2
+
+
+    
+permalinks:
+  post: /:filename/
+  
+enableRobotsTXT: true
+minify:
+  tdewolff:
+    html:
+      keepComments: true
+      
+

@@ -1,0 +1,75 @@
+{{ define "main" }}
+  {{ $section := .Site.GetPage "section" .Section }}
+	<article>
+	<header class="text-center py-10">
+	  <h1 class="text-5xl pb-2">{{ .Title }}</h1>
+
+	  <div class="flex place-content-center">
+		{{ with .Params.author }}
+		<p class="pr-5">
+		By <strong>
+		  {{ if reflect.IsSlice . }}
+		  {{ delimit . ", " | markdownify }}
+		  {{else}}
+		  {{ . | markdownify }}
+		  {{ end }}
+		</strong> 
+		</p>
+		{{ end }}
+		<time {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
+		  {{ .Date.Format "January 2, 2006" }}
+		</time>
+	  </div>
+	</header>
+
+	<section class="main-article">
+	<div class="article-details">
+		{{ if .Params.categories }}
+		<div class="article-category">
+			{{ range (.GetTerms "categories") }}
+				<a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
+					{{ .LinkTitle }}
+				</a>
+		{{ end }}
+		</div>
+	</div>
+    {{ end }}
+	  {{ if ne .Lastmod .Date }}  
+	  <span style="font-size:14px;">Modified on :
+		<time {{ printf `datetime="%s"` (.Lastmod.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
+		  {{ .Lastmod.Format "January 2, 2006" }}
+		</time>
+	  </span>
+	  {{ end }}
+	  {{ .Content }}
+ {{/*     {{- with .Content -}}
+  	  <div itemid="articleBody">
+  	    {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor"> 🔗&#xFE0E;</a> ${3}` | safeHTML }}
+  	  </div>
+  	  {{- end -}}*/}}
+	</section>
+	<section class="tags">
+	  {{ partial "tags.html" . }}
+	</section>
+
+	<div class="mt-20">{{ partial "menu-contextual.html" . }}</div>
+	</article>
+
+  {{ if gt (len .TableOfContents) 33 }}
+    <input type="checkbox" id="cp_navimenuid">
+    <label class="menu" for="cp_navimenuid">
+      <div class="menubar">
+	      <span class="bar"></span>
+	      <span class="bar"></span>
+	      <span class="bar"></span>
+      </div>  
+      <aside class="right-sidebar">
+        <h2 class="widget-title section-title">Table of contents</h2>
+        <div class="widget--toc">
+	        {{ .TableOfContents }}
+        </div>
+      </aside>
+    </label>
+  {{ end }}
+
+{{ end }}
