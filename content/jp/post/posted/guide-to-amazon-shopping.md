@@ -1,5 +1,5 @@
 ---
-title: "Amazonの利用方法"
+title: "Amazonショッピングの利用方法"
 date: 2022-11-27
 categories: [Tech]
 tags: [Privacy,Tips]
