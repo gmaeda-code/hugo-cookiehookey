@@ -25,3 +25,10 @@ draft: true
 - ドメインのsslも管理はできない｡
 	- https://gigazine.net/news/20221110-trustcor-systems-with-government-ties/
 
+    - フィッシング詐欺の対策
+    - 一般的な対策
+    - 正しいURLでも､別のサイトかも
+        - DNSキャッシュポイズニングをされたら
+        - ドメインが期限切れだったら
+            - 過去のVISAの事例
+
