@@ -1,9 +1,9 @@
 ---
-title: "ローカル店舗での決済方法"
+title: "実店舗での決済方法"
 date: 2022-04-17
 lastmod: 2022-05-27
 categories: [Tech]
-tags: [Privacy,Fin]
+tags: [Privacy,Finance]
 description: ""
 draft: false
 ---

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Finance on CookieHookey</title><link>https://cookiehookey.neocities.org/tags/finance/</link><description>Recent content in Finance on CookieHookey</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 17 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cookiehookey.neocities.org/tags/finance/index.xml" rel="self" type="application/rss+xml"/><item><title>実店舗での決済方法</title><link>https://cookiehookey.neocities.org/payment-methods-in-physical-store/</link><pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/payment-methods-in-physical-store/</guid><description>利便性とプライバシーはしばしばトレードオフである｡決済方法についても同様だ｡基本的に､あらゆるデータが集められているし､売られている｡集められたデータがどういう形で売られているかはデータの購入者にならないとわからないが､できるならば個人情報とは結びつかない形で決済できればいい｡利便性とプライバシーの落とし所を考えてみる｡
+決済方法の種類 店舗で使える通貨は､
+現金 交通系電子マネー(カードタイプ) クレジットカード(デビット､プリペイド) モバイル決済(バーコード､NFC) その他(店舗や系列限定の通貨とか) 取捨選択 プライバシーを重視すると､やはり現金が一番に挙げられる｡次点でSuicaなどの交通系電子マネー(無記名カードタイプ)｡簡単に比較した表が以下｡
+アカウント作成 データ収集･蓄積 現金 - - 交通系電子マネー - ✔ クレジットカード ✔ ✔ モバイル決済 ✔ ✔ 現金 アカウント不要｡データ収集なし｡どこの店舗でも使用可｡
+交通系電子マネー(カードタイプ) JR駅の券売機等で500円のデポジットで入手できる｡チャージは駅､コンビニ(基本対面､セブンイレブンはATMも可)など｡
+アカウント不要｡データ収集あり｡利用可能店舗は多い｡
+データ収集ありだが､無記名式ならばPII1(個人を特定する情報)には紐付かないので､許容範囲かなと｡複数もてるので､目的に合わせて､交通用､物販用途というように使い分けたりもできる｡認証を待つ必要がなく決済が速い｡
+一方､UID(カード番号)､残高､利用日､利用内容(電車でA~Bに移動とか､商品購入とか)は記録される｡レシートにUIDの一部が記録される点や､スキミング､紛失のリスクなど現金よりは考慮する点がある｡
+その他の決済方法 モバイル決済は､そもそもスマホ限定のアプリを入れる必要があるため好ましくない｡サービスの仕組み自体も閉鎖的であり､｢この機能を使うには提携口座の開設が必要です｣などややこしい仕組みがある｡また独占と排他の結果､利用可能店舗の制限がある｡特に今はビジネス上のフォーカスが当てられているため､競争の影響を受けやすいのかもしれない｡ スマホアプリを必要としないクレジットカードの方が閉鎖的ではなく､シンプルで利用しやすいと感じる｡
+モバイルスイカはアカウント不要で利用できるが､スマホが前提となっているため省く｡
+終いに 無記名の交通系カード(Suicaカードなど)をベースに決済し､使用できない場所では現金で支払う｡これであれば､プライバシーをある程度重視しつつ､電子マネーの利便性を享受できそうだ｡
+現金支払いの際には､コインホルダーを財布に忍ばせておくと､幾分ラクだ｡
+Personally Identifiable Information(個人を特定する情報)のこと｡電話番号とか､住所とか｡より詳細&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description></item></channel></rss>
