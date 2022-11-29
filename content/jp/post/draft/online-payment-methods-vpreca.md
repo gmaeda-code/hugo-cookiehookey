@@ -1,6 +1,6 @@
 ---
 title: "オンライン上の決済方法"
-date: 2022-11-27
+date: 2022-11-28
 categories: [Tech]
 tags: [Privacy,Finance]
 description: ""
