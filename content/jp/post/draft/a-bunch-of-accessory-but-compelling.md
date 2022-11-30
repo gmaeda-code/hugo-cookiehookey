@@ -1,5 +1,5 @@
 ---
-title: "サービスをセルフホストする"
+title: "アクセサリーは感性に訴える"
 date: 2022-11-28
 categories: [Tech]
 tags: [Privacy,Finance]

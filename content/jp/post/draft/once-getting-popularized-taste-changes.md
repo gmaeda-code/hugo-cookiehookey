@@ -1,5 +1,5 @@
 ---
-title: "サービスをセルフホストする"
+title: "大衆化すると味は変わる"
 date: 2022-11-28
 categories: [Tech]
 tags: [Privacy,Finance]

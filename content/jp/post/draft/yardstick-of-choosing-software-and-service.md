@@ -1,5 +1,5 @@
 ---
-title: "サービスをセルフホストする"
+title: "サービスの選定基準"
 date: 2022-11-28
 categories: [Tech]
 tags: [Privacy,Finance]

@@ -1,5 +1,5 @@
 ---
-title: "Windowsからlinuxへ"
+title: "Windowsからlinuxへの移行"
 date: 2022-11-28
 categories: [Misc]
 tags: [Tips]
