@@ -140,7 +140,11 @@ draft: false
 
 テクノロジーを例に上げれば､CSAMやカーボン排出量(地球温暖化)を理由に､個人(のスマホなど)の追跡を強化する動きがある｡
 目的に対してアプローチの効果が限定的であり､目的以外に利用されていることを踏まえると､口実に思える[(csam-apple-eu-surveillance)](https://tutanota.com/blog/posts/csam-apple-eu-surveillance)[(eu-csam-scanning)](https://tutanota.com/blog/posts/eu-csam-scanning)｡
+> protecting people or just total stalker
+
 テクノロジーに限らず､様々な口実(プロパガンダ､マーケティング)は出回っている｡
+
+
 
 
 ## 4次情報から遠ざかる
