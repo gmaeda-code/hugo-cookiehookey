@@ -136,16 +136,16 @@ draft: false
 むしろ､相手に気を使わせないために､口実の上手さが社会では重宝される気がする｡
 
 しかし､口実は事実ではない｡
-個人やグループの枠組みを超えて､4次情報で用いられる口実は､事実か口実かの判別はつけられない点で厄介だ｡
+個人や仲間内の枠組みを超えて､4次情報で用いられる口実は､事実か口実かの判別はつけられない点で厄介だ｡
 
 テクノロジーを例に上げれば､CSAMやカーボン排出量(地球温暖化)を理由に､個人(のスマホなど)の追跡を強化する動きがある｡
-目的に対してアプローチの効果が限定的であり､目的以外にも利用されていることを踏まえると､口実に思える[(csam-apple-eu-surveillance)](https://tutanota.com/blog/posts/csam-apple-eu-surveillance)[(eu-csam-scanning)](https://tutanota.com/blog/posts/eu-csam-scanning)｡
+目的に対してアプローチの効果が限定的であり､目的以外に利用されていることを踏まえると､口実に思える[(csam-apple-eu-surveillance)](https://tutanota.com/blog/posts/csam-apple-eu-surveillance)[(eu-csam-scanning)](https://tutanota.com/blog/posts/eu-csam-scanning)｡
 テクノロジーに限らず､様々な口実(プロパガンダ､マーケティング)は出回っている｡
 
 
 ## 4次情報から遠ざかる
 中央化したプラットフォーム､例えばSNS等では､ターゲット(マス)にアプローチが容易である｡
-そうした､マス向けのプロットフォームをから離れることができたならば､現実はless drama, less traumaになるだろう｡
+そうした､マス向けのプロットフォームをから離れることができたならば､現実はless drama､less traumaになるだろう｡
 
 TVやネットによって世界が広くなったように感じることがあるかもしれない｡
 ところが､そんなことはない｡世界はもともと広い｡

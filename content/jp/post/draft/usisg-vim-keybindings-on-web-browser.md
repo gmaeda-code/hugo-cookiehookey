@@ -11,7 +11,9 @@ Vimのキーバインド､hjkl等でブラウジングする方法について�
 
 
 ## vimキーバインドの拡張機能
-参考: [Vim_key_bindings_for_web_browsers](https://vim.fandom.com/wiki/Vim_key_bindings_for_web_browsers)
+参考:
+- [Vim_key_bindings_for_web_browsers](https://vim.fandom.com/wiki/Vim_key_bindings_for_web_browsers)
+- [vimperatorの代替](https://github.com/vimperator/vimperator-labs)
 
 選択肢はいくつかある｡
 - [tridactyl](https://github.com/tridactyl/tridactyl)
