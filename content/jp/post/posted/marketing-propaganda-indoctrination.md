@@ -138,7 +138,8 @@ draft: false
 しかし､口実は事実ではない｡
 個人や仲間内の枠組みを超えて､4次情報で用いられる口実は､事実か口実かの判別はつけられない点で厄介だ｡
 
-テクノロジーを例に上げれば､CSAMやカーボン排出量(地球温暖化)を理由に､個人(のスマホなど)の追跡を強化する動きがある｡
+テクノロジーを例に上げれば､CSAMやカーボン排出量(地球温暖化)を理由に､個人(のスマホなど)の追跡を強化する動きがある[(wef-individual-carbon-footprint-tracker-pushed-by-chinas-alibaba-at-davos)](https://www.breitbart.com/europe/2022/05/24/wef-individual-carbon-footprint-tracker-pushed-by-chinas-alibaba-at-davos/),[(individual-carbon-footprint-tracker-alibaba-wef-2022)](https://sociable.co/government-and-policy/individual-carbon-footprint-tracker-alibaba-wef-2022/)｡
+
 目的に対してアプローチの効果が限定的であり､目的以外に利用されていることを踏まえると､口実に思える[(csam-apple-eu-surveillance)](https://tutanota.com/blog/posts/csam-apple-eu-surveillance)[(eu-csam-scanning)](https://tutanota.com/blog/posts/eu-csam-scanning)｡
 > protecting people or just total stalker
 
