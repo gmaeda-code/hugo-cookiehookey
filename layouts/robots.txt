@@ -24,28 +24,6 @@ Disallow: /en/output/
 Disallow: /en/rss/
 Disallow: /en/tags/
 Disallow: /en/categories/
-{{/*
-#archivebotblock
-User-agent: archive.org_bot
-Disallow: /
-User-agent: ia_archiver
-Disallow: /
-User-agent: special_archiver
-Disallow: /
-*/}}
 
 Sitemap: /sitemap.xml
-
-
-{{/*
-User-agent: *
-# robotstxt.org - if ENV production variable is false robots will be disallowed.
-{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-Allow: /
-Sitemap: {{.Site.BaseURL}}/sitemap.xml
-{{ else }}
-Disallow: /
-{{ end }}
-*/}}
-
 
