@@ -6,7 +6,8 @@ tags: [Privacy]
 description: ""
 draft: false
 ---
-iOSのアップデートをしたが､毎回Bluetoothが自動的にONになるのが煩わしい｡ユーザーが設定をしたものを上書きするのは何とかならないものか｡
+iOSのアップデートをしたが､毎回Bluetoothが自動的にONになるのが煩わしい｡
+ユーザーが設定をしたものを上書きするのは何とかならないものか｡
 
 ## AppleとBluetooth
 
