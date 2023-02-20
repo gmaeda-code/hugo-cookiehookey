@@ -16,15 +16,13 @@ Linux系のOSを利用していて､Windowsのインストールメディア(US
 
 
 ## USBメモリにコピー
-linux系のOSみたいに､下記のようにddを使うことはできないようだ｡
-```shell
-dd if=path/to/gnu-linux-os-version-x86_64.iso of=/dev/sdx 
-```
+linux系のOSみたいに､ddを使うことはできないようだ｡
 
-### woeusbを用いる
+そのため､woeusbを用いる｡
 - https://github.com/WoeUSB/WoeUSB#run-from-source
 
 OSのパッケージからインストールしてもいい｡
+インストール後に下記コマンドを実行
 ```shell
 sudo woeusb --device /path/to/windows-image.iso /dev/sdX
 ```

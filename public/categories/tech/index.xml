@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on CookieHookey</title><link>https://cookiehookey.neocities.org/categories/tech/</link><description>Recent content in Tech on CookieHookey</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cookiehookey.neocities.org/categories/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>オンライン上の決済方法:Vプリカ</title><link>https://cookiehookey.neocities.org/online-payment-methods-vpreca/</link><pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/online-payment-methods-vpreca/</guid><description>以前､&amp;ldquo;実店舗での決済方法&amp;quot;という記事で実店舗を対象としたが､今回は､オンラインでの支払い方法について考える｡
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on CookieHookey</title><link>https://cookiehookey.neocities.org/categories/tech/</link><description>Recent content in Tech on CookieHookey</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cookiehookey.neocities.org/categories/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>パスワード管理術</title><link>https://cookiehookey.neocities.org/the-art-of-password-management/</link><pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/the-art-of-password-management/</guid><description>テクノロジーがインフラ化した現代では､行政とのやりとりでも必然的にパスワードを設定する場面に出くわす｡ それ以外でも､大抵は､既に数多くのアカウントを持っていることだろう｡ つまり､ユーザーネームやパスワードといった認証情報を管理することは必須と言える｡ しかし､その肝心の管理方法は十分に広まっていない｡ ここでは､管理方法について考察してみる｡
+TLDR パスワード(PW)は､パスワードマネージャー(PWM)で管理する PWMは専用のNativeアプリであり､オフライン前提で､オープンソースであること 認証情報を強化する(PWMのPWはパスフレーズで管理する) PWは､PWMで管理する PWMを用いる理由は､PWM以外の管理方法では､毎回の入力が面倒と感じ､大抵は簡単なPWにしたくなるからだ｡ PWMであれば､自動入力であったり､コピペが可能なので､どんなPWでも作業は変わらない｡
+PWMは､専用のNativeアプリ､オフライン前提､オープンソースであること 専用のNativeアプリを選択する ブラウザなどのおまけのPWMを利用しない理由は､ブラウザをdependencyとしている以上､セキュリティが第一で開発されていないからだ｡ そのため､ブラウザ側のセキュリティ第一ではない意思決定の影響を受け得る｡
+オフライン前提 Webアプリ(クラウド型)を利用しない理由は､大切だと言っている情報をわざわざwebにアップロードする意味がないからだ｡ 暗号化されていようが､攻撃の対象になりうることは変わらない｡
+デバイス間で共有したいならば､ローカル環境で､syncthingやnextcloudなどのファイルを共有する専用のソフトを使えば良い｡ セキュリティを考えた時に､公開サーバーや､自分が管理していないストレージにわざわざデータを保存する必要はない｡
+オープンソースであること 中身がわからないものをパッケージの文言だけで判断できるだろうか｡ 安全と書いてあれば､安全なのか｡ 中身を見て判断するできるべきだ｡ オフライン前提というところにも関わるが､いつのまにかネットと通信しているアプリは結構多い｡ 中身を担保するためには､オープンソースしかないだろう｡
+認証情報を強化する PWMに登録する認証情報を強化する PW PWMで､記号や､大文字･小文字､数字を含めたできるだけ桁数･文字数の多いPWを自動でランダムで作成する｡ 詳細は､この後出てくる&amp;quot;屈強なPWとは&amp;quot;を参照｡
+解読にかかるコストは､password entropyと言われ､bitという単位で表される｡ 48bitsより､70bitsの方が解読にかかるコストは高くなる｡ 例えば､Password-Entropy-Calculatorで計算できるが､実際に使うPWは入力しないでおこう｡
+メールアドレス 認証情報には､PW以外にも､メールアドレスが使われることが多い｡ その場合､aliasを用いてアカウントごとに違うメールアドレスを設定する｡
+PWM用のPWを強化する 屈強なPWとは PWM自体のPWは別途管理する必要がある｡ 端的に言えば､PWM用のPWを設定して､覚え､バックアップ用に紙に書いて保管する｡
+まず､屈強なPWとは何か｡ 単純化すれば､桁数(文字数)である｡ なるほど記号や大文字･小文字､数字を含めれば解読されにくくなるが､桁数を増やした方がより簡単に計算量を増やすことができる｡ パスワード長と解読時間の関係を見ると､記号を増やすより数桁でも増やしたほうが解読に時間がかかることがわかるだろう｡
+一方で､長いPWほど覚えにくくなるわけだが､PWではなくパスフレーズを用いれば対応できる｡ trimmer.proactive.tummy.tacky.tweet.crushingといったような単語の羅列がパスフレーズである｡ 単語のリストを用いて､ランダムに作成することが望ましい｡
+PWM用のパスフレーズの決め方 パスフレーズを､オンラインで自動で決めてくれるサービスもある(ppgen.cgi)｡ ただ､コンピューター上で行うものは､すべて計算可能な変数であるため､ランダムとは言い難い｡ 本当にランダムという意味では､コンピューター上で扱えない変数をプロセスに組み込むべきである｡
+手順
+サイコロを5個振り､5桁の番号を定める｡ 単語リストからその5桁の番号に対応する単語をピックアップする｡ 例えば､サイコロの目が､ 16363 ならば､単語は enka(演歌) となる｡ 1と2をを繰り返し単語を繋げる｡ 区切り文字として､&amp;quot;-&amp;ldquo;や&amp;rdquo;.&amp;ldquo;を用いてもいいし､そのまま繋げても良い｡ 文字数が多い方が解読はしにくくなるため､6~8単語くらいは繋げた方がいい｡ 生成されたPWを紙にメモする｡覚えた後は､黒ヤギさんに頼んで､金庫に入れて保管してもらう｡ ランダムにするために､手順1､もしくは2をコンピューター以外で行う｡つまり､
+実際にサイコロを振って数字を算出する｡ 手持ちの国語辞典､英語辞典などから単語を抽出する｡ より強化する パスフレーズを変換する 先程､PWM用のPW例として出したパスフレーズtrimmer.</description></item><item><title>Windowsをインストールする</title><link>https://cookiehookey.neocities.org/installing-windows/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/installing-windows/</guid><description>Linux系のOSを利用していて､Windowsのインストールメディア(USBメモリ)を作成することを想定する｡
+ISOを入手する https://www.microsoft.com/software-download/ 上記サイトより､ISOを入手する｡
+USBメモリにコピー linux系のOSみたいに､ddを使うことはできないようだ｡
+そのため､woeusbを用いる｡
+https://github.com/WoeUSB/WoeUSB#run-from-source OSのパッケージからインストールしてもいい｡ インストール後に下記コマンドを実行
+sudo woeusb --device /path/to/windows-image.iso /dev/sdX これで､Windowsのインストールメディアは準備できたはずだ｡
+bootloaderからインストールメディアを読み込む 起動後にメーカーのロゴが出ているときに､delete,f12,f11,f10,esc,f1,f2,f3キーあたりを連打していれば､biosやuefiの画面に入る｡ 後は､bootloaderから読み込むようにする｡
+オフライン状態で､進めれば､Microsoftのアカウントを作成せずに利用できる｡
+telemetryをなくす https://www.geckoandfly.com/25083/free-tools-disable-stop-windows-spying-tracking-you/ Windowsにはtelemetryがデフォルトで有効になっているおり､突発的にかなりのリソースを食うことがある｡ それを防止するためには､上記リンクにあるようなツールが有効だろう｡
+プロダクトキーについて Linux系のOS等をインストールした後でも､もともとWindowsが入っていた場合は､motherboardを交換していない限り､自動で認証されるようだ｡
+Windowsがインストールされた状態で､プロダクトキーを知りたい場合は､コマンドから､もしくはregeditから確認できる｡ 下記サイト参照:
+https://www.techrepublic.com/article/3-simple-ways-to-find-your-windows-10-product-key/</description></item><item><title>オンライン上の決済方法:Vプリカ</title><link>https://cookiehookey.neocities.org/online-payment-methods-vpreca/</link><pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/online-payment-methods-vpreca/</guid><description>以前､&amp;ldquo;実店舗での決済方法&amp;quot;という記事で実店舗を対象としたが､今回は､オンラインでの支払い方法について考える｡
 プライバシー的側面を考慮すると､仮想通貨が良いとは思うのだが､入手するまでに手間がかかる｡ ここでは､より手軽に手に入る､Vプリカギフトを扱う｡仮想通貨とは異なり､Visaの決済であるため規制されている場面では使用できないだろう｡
 Vプリカの種類 Vプリカには､2種類ある｡
 Vプリカ(ノーマル?) Vプリカギフトがある｡ この記事では､アカウント登録(SMS認証)の必要がないVプリカギフトを取り扱う｡
@@ -16,11 +42,11 @@ Vプリカギフト: 公式サイト: https://vpc.lifecard.co.jp/gift/index.html
 別の仕組みを使いたいときの代替例 https://opensource.builders/ https://switching.software/ 中央化したプラットフォームを利用するとき それでも､大衆向けの情報やコンテンツにアクセスしたい場合は､別のフロントエンドを利用する方が良いだろう｡ youtubeの代わりに､invidiousを利用するとか｡
 別のフロントエンド例 https://github.com/mendel5/alternative-front-ends https://github.com/digitalblossom/alternative-frontends フロントエンドを変えただけでは解決しない検索エンジンの検閲 SNSだけでなく､検索エンジンも中央集中化している｡ Google等は独自の検閲をしている｡
 確かに､検索エンジンには､プライバシーを売りにした､duckduckgoやstartpage等があるが､インデックスはGoogleやBingに依存している｡ そのため検索結果は､依存先の影響を受ける｡(duckduckgo-removes-pirate-sites-and-youtube-dl-from-its-search-results-220415) 検索サイトに関しては､プライバシーの側面と言うより､独自のインデックスが足りていない点が大きい｡
-bravaは独自のインデックスだが､現状､日本語だとうまく検索されないことも多い｡</description></item><item><title>Amazonショッピングの利用方法</title><link>https://cookiehookey.neocities.org/guide-to-amazon-shopping/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/guide-to-amazon-shopping/</guid><description>Amazonだけでほぼ全てのモノが揃うと言っても過言ではない｡それだけに､利用者が多く､皆の個人情報が集まっている場所とも言える｡集めるだけ集めて､ハッキングされて情報が流れるということもあるので､必要な情報だけ提供するのが良いだろう｡その点も考慮しつつ､Amazonの利用方法を考えてみる｡
+bravaは独自のインデックスだが､現状､日本語だとうまく検索されないことも多い｡</description></item><item><title>Amazonショッピングの利用方法</title><link>https://cookiehookey.neocities.org/guide-to-amazon-shopping/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/guide-to-amazon-shopping/</guid><description>Amazonだけでほぼ全てのモノが揃うと言っても過言ではない｡ それだけに､利用者が多く､皆の個人情報が集まっている場所とも言える｡ 個人情報を集めるだけ集めて､ハッキングされて情報が流れるということもあるので､必要な情報だけ提供する方が良いだろう｡ その点も考慮しつつ､Amazonの利用方法を考えてみる｡
 基本的な方針は､以下の通り｡
-Amazonが販売し､Amazonが発送する商品のみ購入する｡ ほしいものリストは使わない 購入する時だけ､ログインする｡ Amazonロッカーで受取 Amazonはいつ必要か 普段利用する実店舗で手に入るものを､わざわざAmazonで購入する必要はない｡ ただ､ブランドにこだわるならば､Amazonの方が安価だということは多々あるだろう｡ しかし､Amazonには､1000円を節約させて､必要のない2000円の商品を購入させる仕組みがある｡ その場合､お買い得と言えるだろうか｡なんとなく買い物するなら､値段上のメリットはない｡ 加えて､Amazonでは選択肢が多いために､購入までに時間がかかる傾向がある｡
+Amazonが販売し､Amazonが発送する商品のみ購入する｡ ほしいものリストは使わない 購入する時だけ､ログインする｡ Amazonロッカーで受取 Amazonはいつ必要か 普段利用する実店舗で手に入るものを､わざわざAmazonで購入する必要はない｡ ただ､ブランドにこだわるならば､Amazonの方が安価だということは多々ある｡ しかし､Amazonには､1000円を節約させて､必要のない2000円の商品を購入させる仕組みがある｡ その場合､お買い得と言えるだろうか｡なんとなく買い物するなら､値段上のメリットはない｡
 利用する場面としては､
-実店舗が近くにない､行くタイミングがないとき まとめて1箇所で購入したい､荷物を配達してほしいとき この商品がいい､このブランドいいと決まっている場合に､Amazonの方が安価であるとき アカウントの登録 Amazonの登録には､以下の情報が必須となる｡
+実店舗が近くにない､行くタイミングがないとき まとめて1箇所で購入したい､荷物を配達してほしいとき この商品がいい､このブランドいいと決まっている場合(Amazonの方が安価であるとき) アカウントの登録 Amazonの登録には､以下の情報が必須となる｡
 名前 メールアドレス パスワード 電話番号 基本的に､IDを提出しないものに関しては､ID通りでなくても利用できる｡しかし､困らないために､事前に十分考えることが重要だ｡
 名前 人間として有り得そうな名前にする｡
 メールアドレス SimpleLoginとか､AnonAddyとかでエイリアスを作成して利用する｡
@@ -28,17 +54,15 @@ Amazonが販売し､Amazonが発送する商品のみ購入する｡ ほしい�
 電話番号 ネット上にある､SMS受信サービスの電話番号を入力｡使えるものを探す｡登録後には､リンクをすぐに解除すること｡
 利用前の準備 ここまでで､アカウント登録はできた｡
 前述の通り､電話番号のリンクは解除すること｡ 広告メールを拒否したければ､アカウントページから解除するか､利用時だけエイリアスを有効にする｡ 住所の登録 配達先は､Amazonロッカーにするので､登録住所や電話番号はID通りでなくても利用できるが､受け取るロッカーの付近に設定しておくといいだろう｡
-コンビニ受取だと､身分証明書を求められることがあるらしいので､その場合は身分証明書の情報にする｡
+コンビニ受取だと､身分証明書を求められることがあるらしいので､その場合は身分証明証の情報を登録する｡
 支払い方法について 次のような支払い方法がある｡
-事前に､コンビニ等でAmazonギフト券を現金で購入 注文後に､コンビニで現金支払い 注文後に､Pay-easyが使用できるATMで現金支払い 自分の名義のクレジットカードを利用するなら､カードの名義の入力欄には､Amazonに登録したアカウント名を入力する｡名前は､決済時の認証には使われないので､Amazonに知らせる必要はない｡
+事前に､コンビニ等でAmazonギフト券を現金で購入 注文後に､コンビニで現金支払い､Pay-easyが使用できるATMで現金支払い 事前にamazonギフト券を購入する場合 カードタイプとシートタイプの2種類がある｡ シートタイプは､マルチ端末で発行する必要があるため､コンビニでのみ可｡
+カードタイプ 3,000円/5,000円/10,000円/20,000円/バリアブル(1,500～50,000円) シートタイプ 2,000円/3,000円/5,000円/10,000円/20,000円/25,000円 1500円以下の金額を購入したい場合は､事前にamazonでギフトチャージを注文･購入し､支払をコンビニ支払などにしておけば良い｡
+注文後に､コンビニ等で現金支払い､ATM支払い 商品によってなのか､配送先によってなのか､コンビニ支払･ATM支払を選択できない場合がある｡ そのため､事前にamazonギフト券を購入したほうが無難だと思う｡ ちなみに､購入する商品がamazonギフトチャージの場合は､コンビニ支払いは選択できる｡
+その他 自分の名義のクレジットカードを利用するなら､カードの名義の入力欄には､Amazonに登録したアカウント名を入力する｡ カードの名前は､決済時の認証には使われないので､Amazonに知らせる必要はない｡
+全額をamazonギフトだけで支払いをすると､amazonポイントは使えないようだ｡ クレジットカードを決済方法にするか､もしかしたらコンビニ支払いを指定できればamazonポイントは使えるのかもしれない｡
 利用方法 利用するための準備は整った｡
-利用方針 Amazonが販売し､Amazonが発送する商品のみ購入する｡ ほしいものリストは使わない 購入する時だけ､ログインする｡ Amazonロッカーで受取 Amazon販売､Amazon発送の商品のみ購入する Amazonとは言うものの､Amazon以外が販売している商品が多数ある｡ Amazonが選定し､責任を持った商品の方が､トラブルが少なく､対応も早いと思う｡ 偽物であったり､レビューの偽造も特に気にする必要がないだろう｡Amazonが販売する商品に限定する方法は､2通りある｡
-1つめ
-Amazonでキーワード検索する カテゴリーや価格帯などで何かしらで､1つフィルターをかける 出品者のフィルターからAmazon.co.jpを選択する 2つめ
-Amazonでキーワード検索する URLの最後に､&amp;amp;emi=AN1VRQENFRJN5を付け加える｡ Amazon販売のみになっていなければ､1つカテゴリ等を絞る｡ ほしいものリストは使わない ブラウザのブックマーク等でほしいものを管理する｡ ブックマークに登録する際には､URLの余計なパラメーターを除去しておく｡
-除去前
-www.amazon.jp/%E6%97%A5%E6%9C%ACHP-67-XL%E3%82%A4%E3%83%B3%E3%82%AF%E3%82%AB%E3%83%BC%E3%83%88%E3%83%AA%E3%83%83%E3%82%B8-%E9%BB%92-3YM57AA/dp/B08DQTS9V4/?_encoding=UTF8&amp;amp;content-id=amzn1.sym.be613b3c-0422-4483-b8c0-dad158b5499a&amp;amp;ref_=pd_gw_exports_top_sellers_unrec_jp 除去後
-www.amazon.co.jp/dp/B08DQTS9V4/ dpと､ASIN(Amazon内での管理番号)だけが必要な情報である｡ 除去後のURLをブックマークに登録する｡手動で除去しても良いし､redirectorというブラウザの拡張機能を使って半自動で取り除くことも可能｡redirectorのレシピは後に記述する｡</description></item><item><title>データ収集に関する法整備</title><link>https://cookiehookey.neocities.org/regulate-data-collection-itself/</link><pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/regulate-data-collection-itself/</guid><description>トラッキング､データ収集全般について､法整備の観点から考えてみる｡
+利用方針 Amazonが販売し､Amazonが発送する商品のみ購入する｡ ほしいものリストは使わない 購入する時だけ､ログインする｡ Amazonロッカーで受取 Amazon販売､Amazon発送の商品のみ購入する Amazonとは言うものの､Amazon以外が販売している商品が多数ある｡ Amazonが選定し､責任を持った商品の方が､トラブルが少なく､対応も早いと思う｡ 偽物であったり､レビューの偽造も特に気にする必要がないだろう｡Amazonが販売する商品に限定する方法は､2通りある｡</description></item><item><title>データ収集に関する法整備</title><link>https://cookiehookey.neocities.org/regulate-data-collection-itself/</link><pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/regulate-data-collection-itself/</guid><description>トラッキング､データ収集全般について､法整備の観点から考えてみる｡
 データ収集の問題点 データ収集の問題点を整理する｡ユーザーのデータは第2の通貨として機能している｡ただ､お金という形式の通貨とは違いが2つある｡
 1つ目は､使ったら取り戻すことができないということ｡デバイスを離れ相手のサーバーやストレージに保存されたら､ユーザーが管理することはできない｡消去機能があったとしても､それは消去機能があった場合の話だ｡消去機能があったところで､消去の定義･方法はわからないし､実際に消去されたかの確認はできない｡
 2つ目は､お金と違い､所有者は一人ではなく､価値を失わないまま共有されうる｡収集されたデータをコピペして､第2､3者に譲渡･販売できる｡お金のコピーが好きなだけ行えるようなものである｡

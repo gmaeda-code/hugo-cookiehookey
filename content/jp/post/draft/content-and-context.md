@@ -7,4 +7,6 @@ description: ""
 draft: true
 ---
 
+コンテントは生じたもの
+コンテクストは生じる過程
 

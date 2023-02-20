@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on CookieHookey</title><link>https://cookiehookey.neocities.org/post/posted/</link><description>Recent content in Articles on CookieHookey</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 30 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cookiehookey.neocities.org/post/posted/index.xml" rel="self" type="application/rss+xml"/><item><title>日常</title><link>https://cookiehookey.neocities.org/ordinary-day/</link><pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/ordinary-day/</guid><description>そこにあった場所､そこにあった時間､当たり前だった日常｡
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on CookieHookey</title><link>https://cookiehookey.neocities.org/post/posted/</link><description>Recent content in Articles on CookieHookey</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cookiehookey.neocities.org/post/posted/index.xml" rel="self" type="application/rss+xml"/><item><title>ニュースやメディアとの付き合い方</title><link>https://cookiehookey.neocities.org/how-do-we-deal-with-news-and-media/</link><pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/how-do-we-deal-with-news-and-media/</guid><description>メディアは､政府や企業のPR活動のために存在している｡ それゆえに､報道･放送内容は､その目的のために整形され得る｡
+確かに､ニュースを見なければ､偏向情報を受けとらないで済むが､世情に疎くなる｡ そこは悩みどころだ｡ PR活動から､適度に距離を取りつつ､時事を捉える方法を探る｡
+リズムの違い ニュースを知るための手段はいくつかある｡ それらは､発行されるリズム･ターム･ペースに違いがある｡
+テレビ &amp;gt; ネット &amp;gt; 新聞 &amp;gt; (週刊誌 &amp;gt; 月刊誌) &amp;gt; 本 の順に発行リズムは早くなる｡
+基本的にテレビ(もしくはネット)が早い｡ 新聞もテレビにリズムを合わせようとするが､時間が遅いことにもメリットがある｡ それは､発行リズムが遅いほど､調査に時間をかけることができ､考察する時間が増える点にある｡ リズムが遅いほど､単なる情報の流布ではなくなる｡
+媒体の違い 映像か､音声か､文字かといった違いがある｡
+大衆向けは検閲される 映像 &amp;gt; 音声 &amp;gt;? 文字 の順で大衆向けとなる｡
+大衆向けのコンテンツは検閲される傾向にある｡ テレビ番組を例に挙げると､深夜の放送時間帯では過激であったり､個性があったおもしろい番組が､ゴールデンタイム(20時ごろ?)の放送時間になると､内容変更を余儀なくされ､つまらなくなる､という話はよくある｡ 大衆受けを狙うと中身を変える必要性が出てくる｡
+時間帯ごとにターゲットが違い､ターゲットによってコンテンツは整形されるということは事実であるが､そもそも映像自体が､基本的に大衆に向けられたものであるため､検閲や偏向が起こりやすい｡ 例えば､小説や漫画を動画や映画にしようとするときに､一部表現が取り除かれたりするが､映像が大衆向けであることが背景にあると思う｡
+映像は理性を抑制する 加えて､我々は､映像に対して理性的にではなく､感情的に反応する傾向がある｡ 全く関係ない映像が､アナウンサーの言葉と同時に流されたとしても､映像とニュースを関連付けて判断しがちだ｡ 映像の場合､理性のフィルターを働かせることもなく､｢本当かな?｣ではなく､｢本当だ!｣と思って受け取る傾向にあると言える｡
+テキストの場合は､映像みたいに最初から結論のようなものはない｡ だからこそ､考える｡ 文脈を捉えようとすることで､全体像を自分で構築する｡
+立場の違い 発行母体によって､フィルターが違うため､報道される内容にも違いが生まれる｡ 国自体で検閲･偏向があると考えるならば､言語を変えるなり､海外メディアから情報を得ることでフィルターを変えられるかもしれない｡
+ニュース収集の方法 以下を考慮する｡
+リズムの違い: リズムの遅いメディアにすることで､入手する情報の質を高める 媒体の違い: 映像は避け､テキストベースにすることで理性を働かせる 立場の違い: 複数の発行母体(国､会社､個人)から情報を取得することで､中立性を保ち全体像を構築する 私は､RSSを用いてテキストベースで複数のメディアから情報を取得していることが多いが､よりリズムの遅い新聞や週刊誌､本などからニュースを取る方法もありだと思う｡</description></item><item><title>Windowsをインストールする</title><link>https://cookiehookey.neocities.org/installing-windows/</link><pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/installing-windows/</guid><description>Linux系のOSを利用していて､Windowsのインストールメディア(USBメモリ)を作成することを想定する｡
+ISOを入手する https://www.microsoft.com/software-download/ 上記サイトより､ISOを入手する｡
+USBメモリにコピー linux系のOSみたいに､ddを使うことはできないようだ｡
+そのため､woeusbを用いる｡
+https://github.com/WoeUSB/WoeUSB#run-from-source OSのパッケージからインストールしてもいい｡ インストール後に下記コマンドを実行
+sudo woeusb --device /path/to/windows-image.iso /dev/sdX これで､Windowsのインストールメディアは準備できたはずだ｡
+bootloaderからインストールメディアを読み込む 起動後にメーカーのロゴが出ているときに､delete,f12,f11,f10,esc,f1,f2,f3キーあたりを連打していれば､biosやuefiの画面に入る｡ 後は､bootloaderから読み込むようにする｡
+オフライン状態で､進めれば､Microsoftのアカウントを作成せずに利用できる｡
+telemetryをなくす https://www.geckoandfly.com/25083/free-tools-disable-stop-windows-spying-tracking-you/ Windowsにはtelemetryがデフォルトで有効になっているおり､突発的にかなりのリソースを食うことがある｡ それを防止するためには､上記リンクにあるようなツールが有効だろう｡
+プロダクトキーについて Linux系のOS等をインストールした後でも､もともとWindowsが入っていた場合は､motherboardを交換していない限り､自動で認証されるようだ｡
+Windowsがインストールされた状態で､プロダクトキーを知りたい場合は､コマンドから､もしくはregeditから確認できる｡ 下記サイト参照:
+https://www.techrepublic.com/article/3-simple-ways-to-find-your-windows-10-product-key/</description></item><item><title>オンライン上の決済方法:Vプリカ</title><link>https://cookiehookey.neocities.org/online-payment-methods-vpreca/</link><pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/online-payment-methods-vpreca/</guid><description>以前､&amp;ldquo;実店舗での決済方法&amp;quot;という記事で実店舗を対象としたが､今回は､オンラインでの支払い方法について考える｡
+プライバシー的側面を考慮すると､仮想通貨が良いとは思うのだが､入手するまでに手間がかかる｡ ここでは､より手軽に手に入る､Vプリカギフトを扱う｡仮想通貨とは異なり､Visaの決済であるため規制されている場面では使用できないだろう｡
+Vプリカの種類 Vプリカには､2種類ある｡
+Vプリカ(ノーマル?) Vプリカギフトがある｡ この記事では､アカウント登録(SMS認証)の必要がないVプリカギフトを取り扱う｡
+Vプリカギフト: 公式サイト: https://vpc.lifecard.co.jp/gift/index.html
+特徴: アカウント作成不要､休眠費用なし 購入場所: ローソン､デイリーヤマザキ､セイコーマート､NewDaysなど 決済方法: 購入時に現金払い 購入単位: 3000円分(購入費用3250円) 5000円分(購入費用5290円) 有効期限: 購入から1年 利用方法 具体的な手順は公式サイト参照｡
+利用前に､一度web上で有効化する必要がある｡ カード情報を取得した後は､カードを取っておく必要はない｡ 使用後に､再度､認証情報を入力すると､使用履歴を閲覧できる｡ 残高を使い切る Vプリカギフトであっても､SMS認証をしてアカウント作成をしていれば､個別のカード残高を合算できるようだ｡ しかし､それならば､最初からノーマルのVプリカを利用していれば良い｡
+端数となった残高は､Amazonギフトにチャージするという方法が普遍性がありそうだ｡ 最初からAmazonで商品を購入する目的ならば､Amazonギフトカードを購入した方がマークアップがかからない｡
+通常のVisaと同じなので､利用するサービスにチャージの仕組みがあれば､Amazonでなくても良いだろう｡
+その他 FAQ: https://vpreca.dga.jp/ 海外事務手数料: 外貨による決済を利用した際に発生｡支払額の4.0％ クレジットカードと同じ扱いをするため､たぶん金券ショップ売ったり､購入したりはできない｡</description></item><item><title>日常</title><link>https://cookiehookey.neocities.org/ordinary-day/</link><pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/ordinary-day/</guid><description>そこにあった場所､そこにあった時間､当たり前だった日常｡
 わたしは､日常がここにあることに気が付かない｡
 なくなって初めてわかる日常｡
 これから一体､どんな日常を実感しなければならないのだろう｡</description></item><item><title>人気のあるプラットフォームは､マーケットである</title><link>https://cookiehookey.neocities.org/well-known-platform-is-the-market/</link><pubDate>Tue, 29 Nov 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/well-known-platform-is-the-market/</guid><description>インターネットは､なぜか一部に集中している? 不思議と皆が同じような一部の集中したプラットフォームを利用している｡ コントロールを自身の手に集中させたいパーティーは､一部に集中させようと作を練る｡ ユーザーはユーザーで､中身がどうかではなく､名前で選ぶしかないため､自然とよく知られたプラットフォームを利用する｡ 例えば､SNSなら､TwitterとかFacebookと言ったように｡
@@ -23,11 +56,11 @@ bravaは独自のインデックスだが､現状､日本語だとうまく検
 歪む現実 現実は､真実と事実のみで成り立っていると錯覚するが､それは虚構に対して真実･事実というラベルを付けているに過ぎない｡
 現実は､真実と事実と虚構の総体である｡
 真実とは､裁判で証言をする際の宣誓文でいうような情報だ｡自分が見た､聞いた､経験した情報で､起こったことだけでなく､起こるまでの経緯等も含む｡
-&amp;ldquo;I will tell the truth, the whole truth, and nothing but the truth.</description></item><item><title>Amazonショッピングの利用方法</title><link>https://cookiehookey.neocities.org/guide-to-amazon-shopping/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/guide-to-amazon-shopping/</guid><description>Amazonだけでほぼ全てのモノが揃うと言っても過言ではない｡それだけに､利用者が多く､皆の個人情報が集まっている場所とも言える｡集めるだけ集めて､ハッキングされて情報が流れるということもあるので､必要な情報だけ提供するのが良いだろう｡その点も考慮しつつ､Amazonの利用方法を考えてみる｡
+&amp;ldquo;I will tell the truth, the whole truth, and nothing but the truth.</description></item><item><title>Amazonショッピングの利用方法</title><link>https://cookiehookey.neocities.org/guide-to-amazon-shopping/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/guide-to-amazon-shopping/</guid><description>Amazonだけでほぼ全てのモノが揃うと言っても過言ではない｡ それだけに､利用者が多く､皆の個人情報が集まっている場所とも言える｡ 個人情報を集めるだけ集めて､ハッキングされて情報が流れるということもあるので､必要な情報だけ提供する方が良いだろう｡ その点も考慮しつつ､Amazonの利用方法を考えてみる｡
 基本的な方針は､以下の通り｡
-Amazonが販売し､Amazonが発送する商品のみ購入する｡ ほしいものリストは使わない 購入する時だけ､ログインする｡ Amazonロッカーで受取 Amazonはいつ必要か 普段利用する実店舗で手に入るものを､わざわざAmazonで購入する必要はない｡ ただ､ブランドにこだわるならば､Amazonの方が安価だということは多々あるだろう｡ しかし､Amazonには､1000円を節約させて､必要のない2000円の商品を購入させる仕組みがある｡ その場合､お買い得と言えるだろうか｡なんとなく買い物するなら､値段上のメリットはない｡ 加えて､Amazonでは選択肢が多いために､購入までに時間がかかる傾向がある｡
+Amazonが販売し､Amazonが発送する商品のみ購入する｡ ほしいものリストは使わない 購入する時だけ､ログインする｡ Amazonロッカーで受取 Amazonはいつ必要か 普段利用する実店舗で手に入るものを､わざわざAmazonで購入する必要はない｡ ただ､ブランドにこだわるならば､Amazonの方が安価だということは多々ある｡ しかし､Amazonには､1000円を節約させて､必要のない2000円の商品を購入させる仕組みがある｡ その場合､お買い得と言えるだろうか｡なんとなく買い物するなら､値段上のメリットはない｡
 利用する場面としては､
-実店舗が近くにない､行くタイミングがないとき まとめて1箇所で購入したい､荷物を配達してほしいとき この商品がいい､このブランドいいと決まっている場合に､Amazonの方が安価であるとき アカウントの登録 Amazonの登録には､以下の情報が必須となる｡
+実店舗が近くにない､行くタイミングがないとき まとめて1箇所で購入したい､荷物を配達してほしいとき この商品がいい､このブランドいいと決まっている場合(Amazonの方が安価であるとき) アカウントの登録 Amazonの登録には､以下の情報が必須となる｡
 名前 メールアドレス パスワード 電話番号 基本的に､IDを提出しないものに関しては､ID通りでなくても利用できる｡しかし､困らないために､事前に十分考えることが重要だ｡
 名前 人間として有り得そうな名前にする｡
 メールアドレス SimpleLoginとか､AnonAddyとかでエイリアスを作成して利用する｡
@@ -35,17 +68,15 @@ Amazonが販売し､Amazonが発送する商品のみ購入する｡ ほしい�
 電話番号 ネット上にある､SMS受信サービスの電話番号を入力｡使えるものを探す｡登録後には､リンクをすぐに解除すること｡
 利用前の準備 ここまでで､アカウント登録はできた｡
 前述の通り､電話番号のリンクは解除すること｡ 広告メールを拒否したければ､アカウントページから解除するか､利用時だけエイリアスを有効にする｡ 住所の登録 配達先は､Amazonロッカーにするので､登録住所や電話番号はID通りでなくても利用できるが､受け取るロッカーの付近に設定しておくといいだろう｡
-コンビニ受取だと､身分証明書を求められることがあるらしいので､その場合は身分証明書の情報にする｡
+コンビニ受取だと､身分証明書を求められることがあるらしいので､その場合は身分証明証の情報を登録する｡
 支払い方法について 次のような支払い方法がある｡
-事前に､コンビニ等でAmazonギフト券を現金で購入 注文後に､コンビニで現金支払い 注文後に､Pay-easyが使用できるATMで現金支払い 自分の名義のクレジットカードを利用するなら､カードの名義の入力欄には､Amazonに登録したアカウント名を入力する｡名前は､決済時の認証には使われないので､Amazonに知らせる必要はない｡
+事前に､コンビニ等でAmazonギフト券を現金で購入 注文後に､コンビニで現金支払い､Pay-easyが使用できるATMで現金支払い 事前にamazonギフト券を購入する場合 カードタイプとシートタイプの2種類がある｡ シートタイプは､マルチ端末で発行する必要があるため､コンビニでのみ可｡
+カードタイプ 3,000円/5,000円/10,000円/20,000円/バリアブル(1,500～50,000円) シートタイプ 2,000円/3,000円/5,000円/10,000円/20,000円/25,000円 1500円以下の金額を購入したい場合は､事前にamazonでギフトチャージを注文･購入し､支払をコンビニ支払などにしておけば良い｡
+注文後に､コンビニ等で現金支払い､ATM支払い 商品によってなのか､配送先によってなのか､コンビニ支払･ATM支払を選択できない場合がある｡ そのため､事前にamazonギフト券を購入したほうが無難だと思う｡ ちなみに､購入する商品がamazonギフトチャージの場合は､コンビニ支払いは選択できる｡
+その他 自分の名義のクレジットカードを利用するなら､カードの名義の入力欄には､Amazonに登録したアカウント名を入力する｡ カードの名前は､決済時の認証には使われないので､Amazonに知らせる必要はない｡
+全額をamazonギフトだけで支払いをすると､amazonポイントは使えないようだ｡ クレジットカードを決済方法にするか､もしかしたらコンビニ支払いを指定できればamazonポイントは使えるのかもしれない｡
 利用方法 利用するための準備は整った｡
-利用方針 Amazonが販売し､Amazonが発送する商品のみ購入する｡ ほしいものリストは使わない 購入する時だけ､ログインする｡ Amazonロッカーで受取 Amazon販売､Amazon発送の商品のみ購入する Amazonとは言うものの､Amazon以外が販売している商品が多数ある｡ Amazonが選定し､責任を持った商品の方が､トラブルが少なく､対応も早いと思う｡ 偽物であったり､レビューの偽造も特に気にする必要がないだろう｡Amazonが販売する商品に限定する方法は､2通りある｡
-1つめ
-Amazonでキーワード検索する カテゴリーや価格帯などで何かしらで､1つフィルターをかける 出品者のフィルターからAmazon.co.jpを選択する 2つめ
-Amazonでキーワード検索する URLの最後に､&amp;amp;emi=AN1VRQENFRJN5を付け加える｡ Amazon販売のみになっていなければ､1つカテゴリ等を絞る｡ ほしいものリストは使わない ブラウザのブックマーク等でほしいものを管理する｡ ブックマークに登録する際には､URLの余計なパラメーターを除去しておく｡
-除去前
-www.amazon.jp/%E6%97%A5%E6%9C%ACHP-67-XL%E3%82%A4%E3%83%B3%E3%82%AF%E3%82%AB%E3%83%BC%E3%83%88%E3%83%AA%E3%83%83%E3%82%B8-%E9%BB%92-3YM57AA/dp/B08DQTS9V4/?_encoding=UTF8&amp;amp;content-id=amzn1.sym.be613b3c-0422-4483-b8c0-dad158b5499a&amp;amp;ref_=pd_gw_exports_top_sellers_unrec_jp 除去後
-www.amazon.co.jp/dp/B08DQTS9V4/ dpと､ASIN(Amazon内での管理番号)だけが必要な情報である｡ 除去後のURLをブックマークに登録する｡手動で除去しても良いし､redirectorというブラウザの拡張機能を使って半自動で取り除くことも可能｡redirectorのレシピは後に記述する｡</description></item><item><title>my050番号の失効に注意</title><link>https://cookiehookey.neocities.org/careful-not-to-lose-my050-number/</link><pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/careful-not-to-lose-my050-number/</guid><description>brastelのmy050は､有料化され､新規申し込みには本人確認書類が必要になった｡ 私はsmatalkを利用していたことがあるが､気が付かず自動解約されたことがある｡brastelを利用している方はご注意を｡
+利用方針 Amazonが販売し､Amazonが発送する商品のみ購入する｡ ほしいものリストは使わない 購入する時だけ､ログインする｡ Amazonロッカーで受取 Amazon販売､Amazon発送の商品のみ購入する Amazonとは言うものの､Amazon以外が販売している商品が多数ある｡ Amazonが選定し､責任を持った商品の方が､トラブルが少なく､対応も早いと思う｡ 偽物であったり､レビューの偽造も特に気にする必要がないだろう｡Amazonが販売する商品に限定する方法は､2通りある｡</description></item><item><title>my050番号の失効に注意</title><link>https://cookiehookey.neocities.org/careful-not-to-lose-my050-number/</link><pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/careful-not-to-lose-my050-number/</guid><description>brastelのmy050は､有料化され､新規申し込みには本人確認書類が必要になった｡ 私はsmatalkを利用していたことがあるが､気が付かず自動解約されたことがある｡brastelを利用している方はご注意を｡
 利用規約によると､旧プラン(番号維持費無料)の場合､チャージや有料通話等が1年間ない態が続くとmy050が解約になる｡利用すると都度1年間延長される｡
 つまり､最後の利用日から1年以内に､利用していればいいということだろう｡ 本人確認については､契約時に行うことを求めてるため､遡って必須になるわけではないようだ｡</description></item><item><title>マスクをまだ着用する理由</title><link>https://cookiehookey.neocities.org/the-reason-we-still-wear-a-mask/</link><pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/the-reason-we-still-wear-a-mask/</guid><description>マスク着用の概況 日本では､屋内はもちろんのこと､屋外でもマスクを着用している人を見かけることが多い｡ 屋内(お店とか)では10割､屋外では7割位の人は着用している印象を受ける｡欧米諸国と比較するとかなり着用者数は多いはずだ｡ マスク着用に強い抵抗を覚える人がいる一方で､大抵の日本人にとっては､マスクを着用することに抵抗はない｡
 マスク着用に抵抗がある理由 マスク着用に反対する声が大きい国は､欧米諸国に多い傾向がある｡恐らく､歴史的な背景が関係している｡ 自由と抑圧に対する戦いがあったかどうかだ｡どの国がということは細かくはわからないが､欧米諸国ではその戦いがあり､服がその象徴になっていた｡
