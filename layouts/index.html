@@ -7,6 +7,7 @@
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
 	<article>
 	<section class="pb-20">
+	  <a href="index.xml">RSS</a>(all tags)
 	  {{ range .Paginator.Pages }}
 		<div>
 		  {{ partial "item.html" . }}

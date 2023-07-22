@@ -28,9 +28,12 @@ languages:
       - name : Privacy
         url : /privacy
         weight : 4
-      - name : RSS
-        url : /en/index.xml
+      - name : Lynx
+        url : /link
         weight : 5
+          #      - name : RSS
+          #        url : /en/index.xml
+          #        weight : 5
 
   jp:
     title: CookieHookey
@@ -51,9 +54,12 @@ languages:
       - name : Privacy
         url : /privacy
         weight : 4
-      - name : RSS
-        url : /index.xml
+      - name : Lynx
+        url : /link
         weight : 5
+          #      - name : RSS
+          #        url : /index.xml
+          #        weight : 5
 
 sitemap:
   changefreq: daily

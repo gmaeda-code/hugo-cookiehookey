@@ -1,9 +1,8 @@
 {{ define "main" }}
   <article>
-    
     <div><p>{{i18n "taxonomyPageList" .}}</p></div>
-    <a href="index.xml">RSS</a> of "{{ .Title }}" tag
     <section>
+      <a href="index.xml">RSS</a> of "{{ .Title }}" tag
       {{ range  .Pages }}
         <div>{{ partial "item.html" . }}</div>
       {{ end }}
