@@ -12,3 +12,6 @@ draft: true
 - 社会システムが与える人間への影響
   - テストステロンは違法､男性が男性であることの規制､草食系男子､
   - https://www.otherlife.co/testosterone/
+選定リスト
+awesomeシリーズから選ぶという選択
+

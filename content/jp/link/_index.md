@@ -1,5 +1,10 @@
 ---
-title: Misc
+title: "リンク集"
+draft: true
 ---
-## Misc
+## リンク集
 
+役立つ､参考になりそうなサイト｡
+
+- [Tech関連](/0collection-of-links/)
+- Misc
