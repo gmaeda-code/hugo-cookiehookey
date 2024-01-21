@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trick on CookieHookey</title><link>https://cookiehookey.neocities.org/tags/trick/</link><description>Recent content in Trick on CookieHookey</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 07 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://cookiehookey.neocities.org/tags/trick/index.xml" rel="self" type="application/rss+xml"/><item><title>部屋干しのニオイを抑える洗剤･漂白剤</title><link>https://cookiehookey.neocities.org/detergent-and-bleach-to-remove-damp-smell/</link><pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/detergent-and-bleach-to-remove-damp-smell/</guid><description>洗剤･漂白剤 洗剤 部屋干しトップ 除菌EX
-漂白剤 クリアヒーロー
-柔軟剤 お好きなもの
-使い方 粉洗剤なので､すすぎを2回に設定したほうがいい｡あとは､洗濯機の掃除とか､乾かす時の換気･循環とかも重要｡</description></item><item><title>電気代の計算式</title><link>https://cookiehookey.neocities.org/calculate-electricity-prices/</link><pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate><guid>https://cookiehookey.neocities.org/calculate-electricity-prices/</guid><description>計算式 電気代 = 消費電力(W) / 1000 * 使用時間(Hour) * 1kWhあたりの電力量料金(27円/kWh) 集める必要があるのは､Wのみ｡とにかく､Wを探す｡
-補足:
-消費電力(W) = 電圧(V) * 電流(A) でも可 kWhは､電気製品公正取引協議会が定めた電力料金の目安単価が､27円/kWh(平成26年から) 例題 問い Raspberry Pi 4 Model Bをサーバーとして24時間利用した場合の1ヶ月の電気料金を知りたい｡
-計算 Wは見つからなかったので､VとAで代用｡5V, 2.5Aとのこと｡よって計算式は､
-電気代 = 消費電力(W) / 1000 * 使用時間(Hours) * 1kWhあたりの電力量料(27円/kWh) 電気代 = {5(V) * 2.5(A)} / 1000 * {24(Hours) * 30(Days)} * 27円/kWh 電気代 = {12.5} / 1000 * {720} * 27円/kWh 電気代 = 243円 つまり､約1ヶ月で243円となる｡実際には､どういう構成かや､稼働状況にもよる｡</description></item></channel></rss>

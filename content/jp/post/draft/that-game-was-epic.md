@@ -41,4 +41,6 @@ As I was the member of the T&F club, not the sprinter though, really enjoyed pla
 - jojo's bizzare adventure
 - street fighter
 - kind of fighters
-- タイピングゲーム
+- 格闘ゲーム
+- 別軸?
+    - タイピングゲーム
