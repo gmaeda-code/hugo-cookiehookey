@@ -5,7 +5,6 @@ canonifyURLs: true
 
 languageCode: en-us
 #theme: photophobia
-#test
 
 DefaultContentLanguage: jp
 SectionPagesMenu: main
