@@ -1,1 +1,17 @@
-public/
+# Hugoのビルド成果物（公開用データ）を除外
+/public/
+/resources/_gen/
+hugo_stats.json
+
+# macOS Finder関連
+.DS_Store
+
+# その他エディタやOSの自動生成ファイル
+*.swp
+*.swo
+*~
+
+# IDE関連
+.idea/
+.vscode/
+
