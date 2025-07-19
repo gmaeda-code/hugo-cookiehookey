@@ -1,0 +1,29 @@
+name: Build and Deploy to Neocities
+
+on:
+  push:
+    branches:
+      - main  # デプロイ対象のブランチを指定
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          #extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to Neocities
+        uses: bcomnes/deploy-to-neocities@v3
+        with:
+          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+          dist_dir: ./public
+          #cleanup: true
+
