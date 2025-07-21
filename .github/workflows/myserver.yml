@@ -1,12 +1,26 @@
-on: [push]
+name: Build and Deploy to myserver
+
+on:
+  push:
+    branches:
+      - main  # デプロイ対象のブランチを指定
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: SFTP upload
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          #extended: true
+
+      - name: Build
+        run: hugo --minify --baseURL "https://cookiehookey.redirectme.net"
+
+      - name: SFTP upload to myserver
         uses: pressidium/lftp-mirror-action@v1
         with:
           host: ${{ secrets.SFTP_HOST }}
@@ -15,4 +29,3 @@ jobs:
           pass: ${{ secrets.SFTP_PASS }}
           localDir: './public'
           remoteDir: '/www'
-
