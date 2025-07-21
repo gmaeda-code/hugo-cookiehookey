@@ -18,7 +18,7 @@ jobs:
           #extended: true
 
       - name: Build
-        run: hugo --minify --baseURL "https://cookiehookey.redirectme.net"
+        run: hugo --minify --baseURL "https://cookiehookey.redirectme.net/blog/"
 
       - name: SFTP upload to myserver
         uses: pressidium/lftp-mirror-action@v1
