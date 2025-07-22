@@ -29,3 +29,4 @@ jobs:
           pass: ${{ secrets.SFTP_PASS }}
           localDir: './public'
           remoteDir: '/www'
+          options: '--delete'
