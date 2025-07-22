@@ -30,3 +30,4 @@ jobs:
           localDir: './public'
           remoteDir: '/www'
           options: '--delete'
+          parallel: '3'
