@@ -6,6 +6,9 @@ hugo_stats.json
 # macOS Finder関連
 .DS_Store
 
+# misc
+.Trash-1000
+
 # その他エディタやOSの自動生成ファイル
 *.swp
 *.swo

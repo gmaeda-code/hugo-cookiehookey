@@ -3,6 +3,10 @@
 baseURL: https://cookiehookey.redirectme.net/blog/
 canonifyURLs: true
 
+#ignoreFiles:
+#  - "content/jp/post/draft"
+#  - "content/jp/link/.*"
+
 languageCode: en-us
 #theme: photophobia
 
@@ -88,7 +92,7 @@ markup:
 
     
 permalinks:
-  post: /:filename/
+  post: /:contentbasename/
   
 enableRobotsTXT: true
 minify:
