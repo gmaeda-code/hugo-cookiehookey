@@ -64,7 +64,7 @@ languages:
         url : /privacy
         weight : 4
       - name : Lynx
-        url : /link
+        url : /link/
         weight : 5
           #      - name : RSS
           #        url : /index.xml
