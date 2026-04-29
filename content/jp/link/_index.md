@@ -6,6 +6,5 @@ draft: true
 
 役立つ､参考になりそうなサイト｡
 
-- [Tech関連](/0collection-of-links/)
+- [Tech関連](/collection-of-links/)
 - Misc
-- aab
