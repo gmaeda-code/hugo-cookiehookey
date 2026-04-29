@@ -6,5 +6,5 @@ draft: false
 
 役立つ､参考になりそうなサイト｡
 
-- [Tech関連](/collection-of-links/)
+- [Tech関連](/collection-of-links-tech/)
 - Misc
