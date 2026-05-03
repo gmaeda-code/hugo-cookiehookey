@@ -4,7 +4,7 @@ date: 2026-04-21
 categories: [Tech]
 tags: [Tips]
 description: ""
-draft: false
+draft: true
 ---
 
 voidlinuxでは､カレンダーにcalcurseを使っている｡
