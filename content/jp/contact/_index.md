@@ -7,7 +7,7 @@ title: Contact
 
 [Pleroma](https://stereophonic.space/bullwhip)
 
-### 公開先
+### blog公開先
 - https://cookiehookey.neocities.org/
-- https://cookiehookey.redirectme.net/
+- https://cookiehookey.redirectme.net/blog/
 - http://pexmft4sm5lccjhxnnj565e4vprempvxxic3dnqc3dvrzzquftniljad.onion/

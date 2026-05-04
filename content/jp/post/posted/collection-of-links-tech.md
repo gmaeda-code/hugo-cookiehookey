@@ -32,6 +32,7 @@ draft: false
 
 neovim
 - https://github.com/rockerBOO/awesome-neovim
+- https://github.com/erikw/vim-keybindings-everywhere-the-ultimate-list
 
 mobile
 - https://f-droid.org/en/packages/
@@ -51,6 +52,15 @@ documentation
 - https://devhints.io/
 - https://www.varac.net/docs/
 - https://deepwiki.com/
+
+package
+- https://f-droid.org/en/packages/
+- https://search.nixos.org/packages
+- https://hpc.guix.info/browse
+- https://voidlinux.org/packages/
+- https://flathub.org/en
+- https://apps.nextcloud.com/
+- https://pkgs.org/
 
 
 ### Monero決済が可能
