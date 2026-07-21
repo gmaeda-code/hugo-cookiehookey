@@ -62,10 +62,26 @@ package
 - https://apps.nextcloud.com/
 - https://pkgs.org/
 
+### サイト分析
+- [aguse.jp: ウェブ調査](https://www.aguse.jp/)
+- [VirusTotal - Home](https://www.virustotal.com/gui/home/upload)
+- [Website Traffic - Check and Analyze Any Website | Similarweb](https://www.similarweb.com/)
+- [Domain Name Data - host.io](https://host.io/)
+- [Free Whois Lookup - Whois IP Search & Whois Domain Lookup | Whois.com](https://www.whois.com/whois/)
+- [Web Statistics and Analysis | HypeStat](https://hypestat.com/)
+- [IP Address Lookup | Geolocation](https://www.iplocation.net/)
+
+### データ送受信
+- [Send](https://send.vis.ee/)
+- [LibreQR · QR codes generator](https://code.antopie.org/miraty/libreqr/)
+
+### その他
+- [Apple security releases - Apple Support](https://support.apple.com/en-us/100100)
 
 ### Monero決済が可能
 - https://cryptwerk.com/
 
+### apple security update
 
 
 ---
