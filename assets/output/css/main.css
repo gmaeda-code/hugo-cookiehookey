@@ -11,6 +11,8 @@ main.container {
 	align-items:flex-start;
 	padding:0 15px;
 }
+/* resize all? images */
+img {  max-width: 800px;  width: 60%;  height: auto;}
 article {
 	max-width: 800px;
 	flex-grow:1;
