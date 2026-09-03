@@ -2,6 +2,8 @@
 /public/
 /resources/_gen/
 hugo_stats.json
+/content/jp/post/draft/
+/content/en/post/draft/
 
 # macOS Finder関連
 .DS_Store
