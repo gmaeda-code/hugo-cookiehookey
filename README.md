@@ -1,4 +1,4 @@
 # CookieHookey blog
-[https://cookiehookey.redirectme.net/blog/](https://cookiehookey.redirectme.net/blog/)
+[CookieHookeyというブログです｡](https://cookiehookey.gmaeda.net)
 
-CookieHookeyというブログです｡
+
