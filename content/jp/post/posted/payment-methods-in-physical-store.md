@@ -58,6 +58,6 @@ draft: false
 
 無記名の交通系カード(Suicaカードなど)をベースに決済し､使用できない場所では現金で支払う｡これであれば､プライバシーをある程度重視しつつ､電子マネーの利便性を享受できそうだ｡
 
-現金支払いの際には､コインホルダーを財布に忍ばせておくと､幾分ラクだ｡![コインホルダー](/img/coin-holder.jpg)
+現金支払いの際には､コインホルダーを財布に忍ばせておくと､幾分ラクだ｡![コインホルダー](/img/coin-holder.webp)
 
 [^1]: Personally Identifiable Information(個人を特定する情報)のこと｡電話番号とか､住所とか｡[より詳細](https://protonmail.com/blog/personal-data/)

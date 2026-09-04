@@ -35,7 +35,7 @@ draft: false
 
 分解方法は､"機種名"+"teardown"とか"repair"といったキーワードで検索すれば､動画が出てくる｡[ifixit](https://www.ifixit.com/)で､コンポーネントが大体わかるので､不要なものは取り外す｡
 下記のようにマイクはきれいに取れなくても､問題なく使えなくなる｡通話時はイヤホンマイクを差し込むことで対応する｡
-![mobile-teardown-mic](/img/mobile-teardown-mic.png)
+![mobile-teardown-mic](/img/mobile-teardown-mic.webp)
 
 
 

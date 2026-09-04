@@ -20,7 +20,7 @@ ProtonVPNと言えば､ProtonMail系列のVPNサービス｡
 ProtonVPNのアカウントを削除した際に､削除完了を知らせるメールが送られてきた｡
 [ProtonVPNのサイト](https://protonvpn.com/)は､サードパーティーのアナリティクスはないし､メールにもビーコンはない｡クリーンな印象ではあるが､メール内のリンクにUTMが使われていた｡
 
-![protonvpn-utm](/img/protonvpn-utm.png)
+![protonvpn-utm](/img/protonvpn-utm.webp)
 
 UTMというと､Urchin Tracking Moduleのことでマーケティングの効果測定のために､URLに"?utm_source="といったパラメーターをつけることでトラッキングできる｡現在は､Google Analyticsの一部機能｡
 

@@ -89,7 +89,7 @@ Legend:
 
 ### ハードウェアの構造
 
-![hardware](/img/hardware.png)
+![hardware](/img/hardware.webp)
 https://replicant.us/freedom-privacy-security-issues.php
 より｡
 
@@ -97,7 +97,7 @@ https://replicant.us/freedom-privacy-security-issues.php
 
 ### スマホの階層
 
-![abstraction-of-the-components](/img/abstraction-of-the-components.png)
+![abstraction-of-the-components](/img/abstraction-of-the-components.webp)
 [SoK-Privacy-on-Mobile-Devices-Its-Complicated](https://www.researchgate.net/publication/302065591_SoK_Privacy_on_Mobile_Devices_-_It%27s_Complicated/fulltext/572fa0fe08ae3736095c1d3f/SoK-Privacy-on-Mobile-Devices-Its-Complicated.pdf)のFig. 1より
 
 図は､各階層の要素を示している｡ユーザーの入出力(操作)が一番表層にあり､深層にハードウェアがある｡
@@ -201,7 +201,7 @@ iOSとAndroidが寡占しているため､パッケージの管理方法や設�
 
 各コンポーネントは､それぞれの領域にアクセス権を持っている｡他のコンポーネントを経由することで､表よりは広くアクセスできる｡
 
-![SoK_Privacy_on_Mobile_Devices_Table_1](/img/SoK_Privacy_on_Mobile_Devices_Table_1.png)
+![SoK_Privacy_on_Mobile_Devices_Table_1](/img/SoK_Privacy_on_Mobile_Devices_Table_1.webp)
 [SoK: Privacy on Mobile Devices – It’s Complicated](https://www.researchgate.net/publication/302065591_SoK_Privacy_on_Mobile_Devices_-_It%27s_Complicated/fulltext/572fa0fe08ae3736095c1d3f/SoK-Privacy-on-Mobile-Devices-Its-Complicated.pdf)のTable1より｡
 
 

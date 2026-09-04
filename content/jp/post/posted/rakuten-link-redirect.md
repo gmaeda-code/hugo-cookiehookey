@@ -9,9 +9,9 @@ draft: false
 楽天市場のトップページから､楽天モバイルのリンクを押すと一瞬違うページに移動する｡
 左下のviewportに表示されるリンクが､クリックする瞬間にJSによって別のリンクに変わる｡
 
-![rakuten-link-redirect](/img/rakuten-link-redirect.png)
+![rakuten-link-redirect](/img/rakuten-link-redirect.webp)
 
 セキュリティのためにviewportを確認する習慣があっても意味がない｡
 フィッシングの手口みたいだ｡
 
-![such-a-terrifying-speed](/img/such-a-terrifying-speed.jpg)
+![such-a-terrifying-speed](/img/such-a-terrifying-speed.webp)

@@ -12,12 +12,12 @@ draft: false
 ### 洗剤
 部屋干しトップ 除菌EX
 
-![heyaboshi-top](/img/heyaboshi-top.jpg)
+![heyaboshi-top](/img/heyaboshi-top.webp)
 
 ### 漂白剤
 クリアヒーロー
 
-![clear-hero](/img/clear-hero.jpg)
+![clear-hero](/img/clear-hero.webp)
 
 ### 柔軟剤
 お好きなもの
