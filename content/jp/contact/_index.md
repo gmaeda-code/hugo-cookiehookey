@@ -9,5 +9,5 @@ title: Contact
 
 ### blog公開先
 - https://cookiehookey.neocities.org/
-- https://cookiehookey.redirectme.net/blog/
+- https://cookiehookey.gmaeda.net/
 - http://pexmft4sm5lccjhxnnj565e4vprempvxxic3dnqc3dvrzzquftniljad.onion/
