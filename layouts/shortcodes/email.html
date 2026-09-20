@@ -1,0 +1,29 @@
+<script>
+const email = "go@away.ee";
+function reveal() {
+  document.getElementById("email").innerHTML =
+    [
+  4,
+  0,
+  46,
+  21,
+  22,
+  2,
+  13,
+  110,
+  2,
+  8,
+  6,
+  10,
+  36,
+  0,
+  89,
+  15,
+  28,
+  90
+].map((c, i) => 
+      String.fromCharCode(c ^ email.charCodeAt(i % email.length))
+    ).join('');
+}
+</script>
+<span id=email onclick=reveal()><a href=#>クリックして表示</a></span>

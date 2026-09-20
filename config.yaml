@@ -88,6 +88,10 @@ markup:
     endLevel: 3
     ordered: true
     startLevel: 2
+#  # markdownにscriptを記述して実行出来るようにする設定
+#  goldmark:
+#    renderer:
+#      unsafe: true
 
 
     
@@ -100,4 +104,3 @@ minify:
     html:
       keepComments: true
       
-
