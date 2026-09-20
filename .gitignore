@@ -3,6 +3,7 @@
 /resources/_gen/
 hugo_stats.json
 /content/jp/post/draft/
+/content/jp/post/idea/
 /content/en/post/draft/
 
 # macOS Finder関連
@@ -10,7 +11,6 @@ hugo_stats.json
 
 # misc
 .Trash-1000
-/content/jp/post/draft/
 
 # その他エディタやOSの自動生成ファイル
 *.swp

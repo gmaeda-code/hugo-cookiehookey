@@ -3,7 +3,8 @@
 baseURL: https://cookiehookey.redirectme.net/blog/
 canonifyURLs: true
 
-#ignoreFiles:
+ignoreFiles:
+- "content/jp/post/idea"
 #  - "content/jp/post/draft"
 #  - "content/jp/link/.*"
 
