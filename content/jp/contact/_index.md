@@ -5,10 +5,7 @@ title: Contact
 
 ### Social
 
-- [Pleroma](https://stereophonic.space/bullwhip)
-- [Twitter](https://x.com/bullwhip0930)
-- bluesky(工事中)
-
+[Pleroma](https://stereophonic.space/bullwhip)
 
 ### Mail
 {{< email >}}
