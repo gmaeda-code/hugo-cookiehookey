@@ -1,4 +1,6 @@
-baseURL: https://cookiehookey.neocities.org/
+#baseURL: https://cookiehookey.neocities.org/
+#baseURL: https://cookiehookey.redirectme.net/
+baseURL: https://cookiehookey.redirectme.net/blog/
 canonifyURLs: true
 
 ignoreFiles:
