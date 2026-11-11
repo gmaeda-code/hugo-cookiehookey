@@ -169,3 +169,4 @@ draft: false
 - [ダンマーディッチャについて](https://adicca.dhamma.org/ja/the-chiba-centre/)
 - [時刻表: 睦沢中央公民館までの時刻表](https://www.navitime.co.jp/diagram/bus/00108782/00026297/1/)
 - [ルート検索: 茂原駅南口〜睦沢中央公民館](https://www.navitime.co.jp/bustransit/?orvStationCode=00108782&orvStationName=茂原駅南口&dnvStationName=睦沢中央公民館)
+- [過去の気象データ](https://www.data.jma.go.jp/stats/etrn/view/10daily_a1.php?prec_no=45&block_no=0381&year=2025&month=10&day=&view=p1)
