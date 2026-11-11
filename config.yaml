@@ -1,6 +1,4 @@
-#baseURL: https://cookiehookey.neocities.org/
-#baseURL: https://cookiehookey.redirectme.net/
-baseURL: https://cookiehookey.redirectme.net/blog/
+baseURL: https://cookiehookey.neocities.org/
 canonifyURLs: true
 
 ignoreFiles:
@@ -85,8 +83,11 @@ markup:
     ordered: true
     startLevel: 2
 #  # markdownにscriptを記述して実行出来るようにする設定
-#  goldmark:
-#    renderer:
+  goldmark:
+    renderer:
+      hardWraps: true 
+#       #改行で<br>を出力するようにする｡デフォルトでは空行を挟まないと分かれない
+#       #その他､行末にスペース2つ､バックスラッシュでも対応できる｡
 #      unsafe: true
 
 
