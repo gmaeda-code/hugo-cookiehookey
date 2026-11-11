@@ -5,6 +5,7 @@ hugo_stats.json
 /content/jp/post/draft/
 /content/jp/post/idea/
 /content/en/post/draft/
+/layouts/shortcodes/archive/
 
 # macOS Finder関連
 .DS_Store
