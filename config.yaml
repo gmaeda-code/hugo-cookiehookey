@@ -26,14 +26,15 @@ languages:
     menu:
       nav:
       - name : Tags
-        url : /en/tags
+        #url : /en/tags
+        url : /tags
         weight : 1
       footnav:
       - name : About
-        url : /en/about
+        url : /about
         weight : 1
       - name : Contact
-        url : /en/contact
+        url : /contact
         weight : 2
       - name : Privacy
         url : /privacy
@@ -41,9 +42,6 @@ languages:
       - name : Lynx
         url : /link
         weight : 5
-          #      - name : RSS
-          #        url : /en/index.xml
-          #        weight : 5
 
   jp:
     title: CookieHookey
@@ -67,9 +65,6 @@ languages:
       - name : Lynx
         url : /link/
         weight : 5
-          #      - name : RSS
-          #        url : /index.xml
-          #        weight : 5
 
 sitemap:
   changefreq: daily
